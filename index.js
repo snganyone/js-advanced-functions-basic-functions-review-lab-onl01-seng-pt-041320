@@ -34,4 +34,4 @@ function actionApplyer(num, arr){
     } else if(num === 13){
         return ((num * 2) + 1000) % 7;
     }
-        }
+}
