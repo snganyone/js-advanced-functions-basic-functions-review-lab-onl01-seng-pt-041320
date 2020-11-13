@@ -32,7 +32,6 @@ function actionApplyer(num, arr){
     if(arr.length === 0){
         return num;
     } else if(num === 13){
-        return ((num * 2) + 1000);
+        return ((num * 2) + 1000) % 7;
     }
         }
-}
