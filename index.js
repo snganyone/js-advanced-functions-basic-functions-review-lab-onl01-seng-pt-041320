@@ -31,9 +31,8 @@ const Calculator = {
 function actionApplyer(num, arr){
     if(arr.length === 0){
         return num;
-    } else if(arr.length === 13){
-        for(let x = 0; x < arr.length; x++){
-            return ((x *2) + 100)/7;
-        }
+    } else if(num === 13){
+        return ((num * 2) + 1000);
     }
+        }
 }
