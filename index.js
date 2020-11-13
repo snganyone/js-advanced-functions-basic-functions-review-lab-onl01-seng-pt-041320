@@ -12,3 +12,22 @@ function wrapAdjective(str = "*"){
         return `You are ${str}${adj}${str}!`;
     }
 }
+
+const Calculator = {
+    add: function(x, y){
+        return x + y;
+    },
+    subtract: function(x, y){
+        return x - y;
+    },
+    multiply: function(x, y){
+        return x * y;
+    },
+    divide: function(x, y){
+        return x / y;
+    }
+};
+
+function actionApplyer(){
+    
+}
